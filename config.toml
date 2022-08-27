@@ -1,4 +1,4 @@
-baseurl = "https://sadfrogblog.com"
+baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -6,22 +6,22 @@ paginate = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  # contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  # showMenuItems = 2
 
   # show selector to switch language
-  showLanguageSelector = false
+  # showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -30,7 +30,7 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  # showLastUpdated = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -57,14 +57,14 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "zdcthomas"
+  # site = ""
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "SadFrogs Blog"
+    # subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
     copyright = ""
@@ -76,16 +76,16 @@ paginate = 5
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
 
-    [languages.en.params.logo]
-      logoText = "Terminal"
-      logoHomeLink = "/"
+    # [languages.en.params.logo]
+    #   logoText = "Terminal"
+    #   logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+    # [languages.en.menu]
+    #   [[languages.en.menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     url = "/about"
+    #   [[languages.en.menu.main]]
+    #     identifier = "showcase"
+    #     name = "Showcase"
+    #     url = "/showcase"
