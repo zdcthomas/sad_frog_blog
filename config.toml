@@ -1,4 +1,4 @@
-baseurl = "sadfrogblog.com"
+baseurl = "https://zdcthomas.github.io/sad_frog_blog"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
