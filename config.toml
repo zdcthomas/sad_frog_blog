@@ -1,4 +1,4 @@
-baseurl = "https://zdcthomas.github.io/sad_frog_blog"
+baseurl = "https://www.sadfrogblog.com"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -63,10 +63,10 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "SadFrogs Blog"
-    # subtitle = "A simple, retro theme for Hugo"
-    owner = ""
-    keywords = ""
+    title = "Sad Frog Blog"
+    subtitle = ""
+    owner = "zdcthomas"
+    keywords = "tech,vim,neovim"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
@@ -76,16 +76,16 @@ paginate = 5
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
 
-    # [languages.en.params.logo]
-    #   logoText = "Terminal"
-    #   logoHomeLink = "/"
+    [languages.en.params.logo]
+      logoText = "Sad Frog"
+      logoHomeLink = "/"
 
-    # [languages.en.menu]
-    #   [[languages.en.menu.main]]
-    #     identifier = "about"
-    #     name = "About"
-    #     url = "/about"
-    #   [[languages.en.menu.main]]
-    #     identifier = "showcase"
-    #     name = "Showcase"
-    #     url = "/showcase"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "https://www.google.com"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
